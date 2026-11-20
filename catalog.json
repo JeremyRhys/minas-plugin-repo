@@ -3,27 +3,16 @@
   "name": "JeremyRhys 插件仓库",
   "packages": [
     {
-      "id": "nascenter",
-      "name": "系统中心",
-      "version": "1.1.1",
-      "summary": "性能监控 + Docker 管理二合一（bundle-v1）",
-      "bundle": "bundles/nascenter-1.1.1.bundle.zip",
-      "signature": "bundles/nascenter-1.1.1.bundle.zip.sig",
-      "sha256": "dc43aa235a57b19fd7347d7424f740ab64d2ad2a682916f0964c7c80bd117b1c",
-      "icon": "icons/nascenter.png",
+      "id": "nasmonitor",
+      "name": "性能监控",
+      "version": "1.0.0",
+      "summary": "CPU / 内存 / 温度 / 磁盘 / 网络 / 硬盘健康实时监控",
+      "bundle": "bundles/nasmonitor-1.0.0.bundle.zip",
+      "signature": "bundles/nasmonitor-1.0.0.bundle.zip.sig",
+      "sha256": "7ec7ccdd111fea591d51f7c4a1877b749bb21f676c2e3cfdab6d351aa5aa760b",
+      "icon": "icons/nasmonitor.png",
       "channel": "stable"
-    },
-    {
-      "id": "nascenter-test",
-      "name": "系统中心 测试",
-      "version": "0.1.0",
-      "summary": "本地构建的插件",
-      "bundle": "bundles/nascenter-test-0.1.0.bundle.zip",
-      "signature": "bundles/nascenter-test-0.1.0.bundle.zip.sig",
-      "sha256": "bbb63b080e7af3e0411e207f14e16d394c7e9729a153bd4920600baa1aa64e75",
-      "icon": "icons/nascenter-test.png",
-      "channel": "dev"
     }
   ],
-  "generatedAt": 1795186041
+  "generatedAt": 1795191208
 }

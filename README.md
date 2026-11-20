@@ -11,7 +11,7 @@
 | 源码仓库 | `https://github.com/JeremyRhys/minas-plugin-repo` |
 | 公钥指纹（SHA-256） | `0d92c24c7b96ff55a068058d8cfd6c80dc494f2698dcbf6dbe2eeae06bdf63e1` |
 | 签名算法 | ECDSA P-256 + SHA-256（分离签名） |
-| 插件 | `nascenter` 1.1.1（系统中心）、`nascenter-test` 0.1.0（测试） |
+| 插件 | `nasmonitor` 1.0.0（性能监控） |
 
 > 指纹以 `repository-public.sha256` 为准。别人添加时看到的第一串指纹必须和这里**逐字一致**，否则不要确认。
 
@@ -61,4 +61,4 @@ icons/<id>.png            插件图标
 
 - 包是声明式 `bundle-v1`：只有 `manifest.json` / `runtime/` / `ui/` / `icon/` / `config/<service>` / `config/<nginx>`，没有安装 shell。
 - 商店安装前会校验：catalog 签名 → 包 SHA-256 → 包签名 → manifest 规则 → 健康检查，任一步失败自动回滚。
-- 本仓库的 `nascenter` 与制作者 NAS 上自建的系统中心**同路径同端口**：同一台设备上不要重复安装，否则会覆盖现有系统中心。
+- 本仓库只包含「性能监控」，安装后是独立应用，不依赖系统中心，也不会覆盖它。
