@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "name": "本地插件仓库",
+  "packages": [
+    {
+      "id": "nascenter",
+      "name": "系统中心",
+      "version": "1.1.0",
+      "summary": "性能监控 + Docker 管理二合一（bundle-v1）",
+      "bundle": "bundles/nascenter-1.1.0.bundle.zip",
+      "signature": "bundles/nascenter-1.1.0.bundle.zip.sig",
+      "sha256": "8cb3ce418c95146fb09c433d1cf8788de4d9a284e279ba1c600e894073cb29f3",
+      "icon": "icons/nascenter.png",
+      "channel": "stable"
+    },
+    {
+      "id": "nascenter-test",
+      "name": "系统中心 测试",
+      "version": "0.1.0",
+      "summary": "本地构建的插件",
+      "bundle": "bundles/nascenter-test-0.1.0.bundle.zip",
+      "signature": "bundles/nascenter-test-0.1.0.bundle.zip.sig",
+      "sha256": "bbb63b080e7af3e0411e207f14e16d394c7e9729a153bd4920600baa1aa64e75",
+      "icon": "icons/nascenter-test.png",
+      "channel": "dev"
+    }
+  ],
+  "generatedAt": 1795166129
+}
