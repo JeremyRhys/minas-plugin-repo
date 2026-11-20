@@ -11,9 +11,14 @@
 | 源码仓库 | `https://github.com/JeremyRhys/minas-plugin-repo` |
 | 公钥指纹（SHA-256） | `0d92c24c7b96ff55a068058d8cfd6c80dc494f2698dcbf6dbe2eeae06bdf63e1` |
 | 签名算法 | ECDSA P-256 + SHA-256（分离签名） |
-| 插件 | `nasmonitor` 1.0.0（性能监控） |
+| 插件 | `nasmonitor` 1.0.2 性能监控 · `swapmanager` 1.0.1 Swap 管理 |
 
 > 指纹以 `repository-public.sha256` 为准。别人添加时看到的第一串指纹必须和这里**逐字一致**，否则不要确认。
+
+## 插件说明
+
+- **性能监控（nasmonitor）**：CPU/内存/温度/磁盘/网络/硬盘健康实时看板，异常自动标红；没启用 Swap 的设备不显示该区块。
+- **Swap 管理（swapmanager）**：给 4GB 内存的 NAS 加 Swap 兜底，避免 OOM 杀掉中枢网关；一键创建 1/2/4GB、启停、删除，设置 swappiness，自动开机自启。
 
 ## 文件
 

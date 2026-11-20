@@ -5,25 +5,25 @@
     {
       "id": "nasmonitor",
       "name": "性能监控",
-      "version": "1.0.1",
-      "summary": "CPU / 内存 / 温度 / 磁盘 / 网络 / 硬盘健康实时监控",
-      "bundle": "bundles/nasmonitor-1.0.1.bundle.zip",
-      "signature": "bundles/nasmonitor-1.0.1.bundle.zip.sig",
-      "sha256": "e718bbdfe5b540e34ce69afd15d7eaa66905a3557c430e031743d984d04b4763",
+      "version": "1.0.2",
+      "summary": "CPU / 内存 / 温度 / 磁盘 / 网络 / 硬盘健康实时监控，异常自动标红",
+      "bundle": "bundles/nasmonitor-1.0.2.bundle.zip",
+      "signature": "bundles/nasmonitor-1.0.2.bundle.zip.sig",
+      "sha256": "80f5e0b8c0716527938fa3fc9f888b60921b1f637489432a6def9c0e93a0c94d",
       "icon": "icons/nasmonitor.png",
       "channel": "stable"
     },
     {
       "id": "swapmanager",
       "name": "Swap 管理",
-      "version": "1.0.0",
-      "summary": "创建/启停/删除 /data/swapfile，设置 swappiness 与开机自启",
-      "bundle": "bundles/swapmanager-1.0.0.bundle.zip",
-      "signature": "bundles/swapmanager-1.0.0.bundle.zip.sig",
-      "sha256": "0725c211a787cd78e93618aaa1f50a35ba4542a48367626847d49f9df08d47c3",
+      "version": "1.0.1",
+      "summary": "给 NAS 增加 Swap 虚拟内存，缓解 4GB 内存吃紧，避免 OOM 杀掉中枢网关；支持创建 1/2/4GB、启停、删除、swappiness 与开机自启",
+      "bundle": "bundles/swapmanager-1.0.1.bundle.zip",
+      "signature": "bundles/swapmanager-1.0.1.bundle.zip.sig",
+      "sha256": "03deddf65e1ff948f987c666f39834d37ce35bc42a9a13177026a2c0071a3611",
       "icon": "icons/swapmanager.png",
       "channel": "stable"
     }
   ],
-  "generatedAt": 1795193721
+  "generatedAt": 1795194285
 }
