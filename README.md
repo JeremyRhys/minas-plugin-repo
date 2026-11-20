@@ -6,7 +6,7 @@
 
 | 项 | 值 |
 |---|---|
-| 仓库名 | 本地插件仓库 |
+| 仓库名 | JeremyRhys 插件仓库 |
 | 已部署地址 | `https://jeremyrhys.github.io/minas-plugin-repo/` |
 | 源码仓库 | `https://github.com/JeremyRhys/minas-plugin-repo` |
 | 公钥指纹（SHA-256） | `0d92c24c7b96ff55a068058d8cfd6c80dc494f2698dcbf6dbe2eeae06bdf63e1` |

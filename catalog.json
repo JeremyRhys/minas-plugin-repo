@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "name": "本地插件仓库",
+  "name": "JeremyRhys 插件仓库",
   "packages": [
     {
       "id": "nascenter",
@@ -25,5 +25,5 @@
       "channel": "dev"
     }
   ],
-  "generatedAt": 1795166129
+  "generatedAt": 1795174802
 }
