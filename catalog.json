@@ -5,11 +5,11 @@
     {
       "id": "nascenter",
       "name": "系统中心",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "summary": "性能监控 + Docker 管理二合一（bundle-v1）",
-      "bundle": "bundles/nascenter-1.1.0.bundle.zip",
-      "signature": "bundles/nascenter-1.1.0.bundle.zip.sig",
-      "sha256": "8cb3ce418c95146fb09c433d1cf8788de4d9a284e279ba1c600e894073cb29f3",
+      "bundle": "bundles/nascenter-1.1.1.bundle.zip",
+      "signature": "bundles/nascenter-1.1.1.bundle.zip.sig",
+      "sha256": "dc43aa235a57b19fd7347d7424f740ab64d2ad2a682916f0964c7c80bd117b1c",
       "icon": "icons/nascenter.png",
       "channel": "stable"
     },
@@ -25,5 +25,5 @@
       "channel": "dev"
     }
   ],
-  "generatedAt": 1795174802
+  "generatedAt": 1795186041
 }

@@ -11,7 +11,7 @@
 | 源码仓库 | `https://github.com/JeremyRhys/minas-plugin-repo` |
 | 公钥指纹（SHA-256） | `0d92c24c7b96ff55a068058d8cfd6c80dc494f2698dcbf6dbe2eeae06bdf63e1` |
 | 签名算法 | ECDSA P-256 + SHA-256（分离签名） |
-| 插件 | `nascenter` 1.1.0（系统中心）、`nascenter-test` 0.1.0（测试） |
+| 插件 | `nascenter` 1.1.1（系统中心）、`nascenter-test` 0.1.0（测试） |
 
 > 指纹以 `repository-public.sha256` 为准。别人添加时看到的第一串指纹必须和这里**逐字一致**，否则不要确认。
 
