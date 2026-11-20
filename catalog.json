@@ -9,10 +9,10 @@
       "summary": "CPU / 内存 / 温度 / 磁盘 / 网络 / 硬盘健康实时监控",
       "bundle": "bundles/nasmonitor-1.0.0.bundle.zip",
       "signature": "bundles/nasmonitor-1.0.0.bundle.zip.sig",
-      "sha256": "7ec7ccdd111fea591d51f7c4a1877b749bb21f676c2e3cfdab6d351aa5aa760b",
+      "sha256": "c89874e56600758ea60664ad3c8c3de444ada260df08c9b34da82be3d3dc5ce2",
       "icon": "icons/nasmonitor.png",
       "channel": "stable"
     }
   ],
-  "generatedAt": 1795191208
+  "generatedAt": 1795191372
 }
