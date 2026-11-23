@@ -5,11 +5,11 @@
     {
       "id": "hacenter",
       "name": "HA 控制中心",
-      "version": "1.0.2",
+      "version": "1.1.4",
       "summary": "Home Assistant 容器管理 + 设备开关（容器版 HA Core）",
-      "bundle": "bundles/hacenter-1.0.2.bundle.zip",
-      "signature": "bundles/hacenter-1.0.2.bundle.zip.sig",
-      "sha256": "364f2321eb02f6295562391934bfc9aab702bb8a69a64d5bc6e0a6a1703e98b1",
+      "bundle": "bundles/hacenter-1.1.4.bundle.zip",
+      "signature": "bundles/hacenter-1.1.4.bundle.zip.sig",
+      "sha256": "655aaca34a20e77f68b02b6b1d6742d27e2008689e72f192e60f39055d11d09d",
       "icon": "icons/hacenter.png",
       "channel": "stable"
     },
@@ -36,5 +36,5 @@
       "channel": "stable"
     }
   ],
-  "generatedAt": 1795432995
+  "generatedAt": 1795438756
 }
