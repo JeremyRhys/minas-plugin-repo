@@ -3,6 +3,17 @@
   "name": "JeremyRhys 插件仓库",
   "packages": [
     {
+      "id": "hacenter",
+      "name": "HA 控制中心",
+      "version": "1.0.0",
+      "summary": "Home Assistant 容器管理 + 设备开关（容器版 HA Core）",
+      "bundle": "bundles/hacenter-1.0.0.bundle.zip",
+      "signature": "bundles/hacenter-1.0.0.bundle.zip.sig",
+      "sha256": "62d30bc9f974d4aceae2f7a00e06add14d50645001b2ade976ffe2d2aed3bdf1",
+      "icon": "icons/hacenter.png",
+      "channel": "stable"
+    },
+    {
       "id": "nasmonitor",
       "name": "性能监控",
       "version": "1.0.2",
@@ -25,5 +36,5 @@
       "channel": "stable"
     }
   ],
-  "generatedAt": 1795194285
+  "generatedAt": 1795429427
 }
